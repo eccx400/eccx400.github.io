@@ -13,7 +13,7 @@ body
 .mobile
 {
     position: relative;
-    width: 425px;
+    width: 350px;
     height: 700px;
     background: #efefef;
     border-top-left-radius: 40px;
@@ -48,11 +48,21 @@ body
     box-shadow: 0 0 0 2px #999;
 }
 
+.mid
+{
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
+    left: 5px;
+    right: 5px;
+    background: #020c17;     
+}
+
 .bottom
 {
     position: absolute;
     bottom: 5px;
-    height: 94%;
+    height: 5%;
     left: 5px;
     right: 5px;
     background: #020c17;  
