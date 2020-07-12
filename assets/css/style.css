@@ -26,12 +26,36 @@ body
 {
     position: absolute;
     top: 5px;
-    bottom: 5px;
+    height: 5%;
     left: 5px;
     right: 5px;
     background: #020c17;  
     border-top-left-radius: 38px;
     border-top-right-radius: 38px;
+}
+
+.top:before
+{
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    width: 4px;
+    height: 4px;
+    background: #ccc;
+    border: 2px solid #aaa;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #999;
+}
+
+.bottom
+{
+    position: absolute;
+    bottom: 5px;
+    height: 94%;
+    left: 5px;
+    right: 5px;
+    background: #020c17;  
     border-bottom-left-radius: 38px;
     border-bottom-right-radius: 38px;
 }
