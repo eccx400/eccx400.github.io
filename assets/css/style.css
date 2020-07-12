@@ -1,1 +1,19 @@
-import
+@import url('https://fonts.googleapis.com/css?family=Poppins:10');
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mobile
+{
+    position: relative;
+    width: 270px;
+    height: 480px;
+    background: #020;
+}
