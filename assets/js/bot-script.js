@@ -128,6 +128,9 @@ var sure = function () {
           botui.message.add({
               delay: 1600,
               content: "那麽，仔細看看我的博客吧？ ^_^"
-          })
+          })  
+          setTimeout(function(){
+          window.location.replace("https://eccx400.github.io/");
+          }, 4000)
       })
   } 
