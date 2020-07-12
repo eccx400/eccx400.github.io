@@ -13,7 +13,25 @@ body
 .mobile
 {
     position: relative;
-    width: 270px;
-    height: 480px;
-    background: #020;
+    width: 325px;
+    height: 650px;
+    background: #efefef;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.top
+{
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    background: #020c17;  
+    border-top-left-radius: 38px;
+    border-top-right-radius: 38px;
+    border-bottom-left-radius: 38px;
+    border-bottom-right-radius: 38px;
 }
