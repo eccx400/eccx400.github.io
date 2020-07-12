@@ -69,7 +69,7 @@ body
     left: 5px;
     right: 5px;
     background: #efefef; 
-    background-image: linear-gradient( rgba(128,128,128,1) 0%, rgba(239,239,239,1) 0.5%, rgba(250,250,250,1) 100%);
+    background-image: linear-gradient( rgba(128,128,128,1) 0%, rgba(239,239,239,1) 0.3%, rgba(250,250,250,1) 100%);
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;    
 }
@@ -86,11 +86,7 @@ body
 
 .signal
 {
-    position: relative;
-    height: 25px;
-    z-index: 20;
-    color: #e4dccf;
-    font-size: 13px;
+
 }
 
 .battery
@@ -102,4 +98,5 @@ h2
 {
     color: #fff;
     font-weight: 400;
+    z-index: 1;
 }
