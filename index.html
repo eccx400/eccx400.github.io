@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="./node_modules/botui/build/botui-theme-default.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 	<script src="https://cdn.botframework.com/botframework-webchat/latest/botchat.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
     <style>
       .botui-container {
         background-color: inherit;
@@ -24,6 +23,7 @@
   </head>
   <body>
       <div class= "mobile">
+		  <nossr>
             <div class= "top">
                 <div class= "mobile-title">
                     <h2><i class="fa fa-angle-left" aria-hidden="true"></i> Eric Cheng</h2>
@@ -33,10 +33,12 @@
             <div class= "bottom">
 				<div class="botui-app-container" id="hello-bot">
 					<bot-ui></bot-ui>
-				</div>
+				</div>		
+				<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
 				<script src="./node_modules/botui/build/botui.js"></script>
 				<script src="./assets/js/bot-script.js"></script>
-            </div>
+			</div>
+		  </nossr>
       </div>
         <div class="extra-link" id="meta-link">
             <a id="en-link" class="letters" href="zh.html" target="_self">
@@ -45,7 +47,7 @@
             <a class="letters" href="https://github.com/eccx400/eccx400.github.io" target="_blank">
                 Github
             </a>
-            <a class="letters" href="https://eccx400.github.io" target="_blank">
+            <a class="letters" href="landing.html" target="_blank">
                 2020
             </a>
             <a class="letters" href="./2019/index.html" target="_blank">
