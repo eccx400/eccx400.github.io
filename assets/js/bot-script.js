@@ -61,7 +61,7 @@ var sure = function () {
                   }).then(function () {
                       botui.message.add({
                           delay: 1500,
-                          content: "I aim to become a software engineer with a focus in big data developement and analysis"
+                          content: "I aim to become a software engineer with a focus in big data development and analysis"
                       }).then(function () {
                           botui.message.add({
                               delay: 1800,
