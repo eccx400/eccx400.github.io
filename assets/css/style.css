@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:10');
+@import url('https://fonts.googleapis.com/css?family=Source-Sans:10');
 body
 {
     margin: 0;
@@ -7,7 +7,7 @@ body
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Source-Sans', sans-serif;
     background: url(../../images/fulls/09.jpg);
     background-size: cover;
 }
@@ -82,7 +82,7 @@ body
     position: relative;
     left: 15px;
     top: 13px;
-    width: 200px;
+    width: 210px;
     height: 40px;
     z-index: 2;
 }
