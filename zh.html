@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <script src="https://cdn.botframework.com/botframework-webchat/latest/botchat.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
-    <script src="./node_modules/botui/build/botui.js"></script>
-    <script src="./assets/js/bot-script.js"></script>
     <style>
       .botui-container {
         background-color: inherit;
@@ -33,11 +31,11 @@
             </div>  
             <div class= "notch"></div>
             <div class= "bottom">
-              <no-ssr>
-                <div class="botui-app-container" id="hello-bot">
-                    <bot-ui></bot-ui>
-                </div>
-              </no-ssr>
+              <div class="botui-app-container" id="hello-bot">
+                  <bot-ui></bot-ui>
+              </div>
+              <script src="./node_modules/botui/build/botui.js"></script>
+              <script src="./assets/js/bot-script.js"></script>
             </div>
       </div>
         <div class="extra-link" id="meta-link">
