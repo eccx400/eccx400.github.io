@@ -124,12 +124,17 @@ h2
     max-width: 20%;
 }
 
-#meta-link {
-    left: 20px;
+@media screen and (max-width: 600px){
+    #meta-link {
+        left: 20px;
+        visibility: hidden;    
+    }
 }
 
-#social-link {
-    right: 20px;
+@media screen and (max-width: 600px){
+    #social-link {
+        right: 20px;
+    }
 }
 
 .extra-link a#en-link {
