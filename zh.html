@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="./node_modules/botui/build/botui-theme-default.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <script src="https://cdn.botframework.com/botframework-webchat/latest/botchat.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
     <style>
       .botui-container {
         background-color: inherit;
@@ -38,6 +37,15 @@
             <div class= "top">
                 <div class= "mobile-title">
                     <h2>與傳軒對話中...</h2>
+                </div>
+                <div class= "time">
+                  <p id= "time"></p>
+                  <script src= "./assets/js/timer.js"></script>
+                </div>
+                <div class= "signal"> 
+                  <i class="fa fa-signal" aria-hidden="true">&nbsp;</i>
+                  <i class="fa fa-wifi" aria-hidden="true">&nbsp;</i>
+                  <i class="fa fa-battery-three-quarters" aria-hidden="true"></i>
                 </div>
             </div>  
             <div class= "notch"></div>

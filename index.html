@@ -7,8 +7,8 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
     <link rel="stylesheet" href="./node_modules/botui/build/botui.min.css" />
     <link rel="stylesheet" href="./node_modules/botui/build/botui-theme-default.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-	<script src="https://cdn.botframework.com/botframework-webchat/latest/botchat.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/botchat.js"></script>
     <style>
       .botui-container {
         background-color: inherit;
@@ -19,7 +19,7 @@
       }
 
       .botui-message-content.human {
-		background-color: #afe56e;
+		background-color: #8de87e;
 		color: #000000;
       }
 
@@ -36,7 +36,16 @@
 		  <nossr>
             <div class= "top">
                 <div class= "mobile-title">
-                    <h2><i class="fa fa-angle-left" aria-hidden="true"></i> Eric Cheng</h2>
+                    <h2><i class="fa fa-angle-left" aria-hidden="true"></i> &nbsp; Eric Cheng</h2>
+                </div>
+                <div class= "time">
+                  <p id= "time"></p>
+                  <script src= "./assets/js/timer.js"></script>
+                </div>
+                <div class= "signal"> 
+                  <i class="fa fa-signal" aria-hidden="true">&nbsp;</i>
+                  <i class="fa fa-wifi" aria-hidden="true">&nbsp;</i>
+                  <i class="fa fa-battery-three-quarters" aria-hidden="true"></i>
                 </div>
             </div>  
             <div class= "notch"></div>
