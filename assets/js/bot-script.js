@@ -136,3 +136,4 @@ function bot_ui_ini() {
         })
     } 
 }
+bot_ui_ini()
