@@ -1,4 +1,4 @@
-var botui = new BotUI('help-bot');
+var botui = new BotUI("hello-bot");
 
 botui.message.add({
   delay: 800,
