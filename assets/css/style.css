@@ -8,7 +8,7 @@ body
     align-items: center;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-    background: url(../../images/banner.jpg);
+    background: url(../../images/fulls/09.jpg);
     background-size: cover;
 }
 
@@ -31,7 +31,7 @@ body
     height: 15%;
     left: 5px;
     right: 5px;
-    background: #f30000;  
+    background: #696969;  
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     box-shadow: 10px grey;
@@ -53,12 +53,13 @@ body
     content: '';
     position: absolute;
     top: 0;
-    left: -50%;
-    width: 100%;
+    left: 0%;
+    width: 75%;
     height: 100%;
     background: rgba(255, 255, 255, .1);
     z-index: 1;
-    transform: skewX(-5deg);
+    transform: skewX(-5deg);   
+    border-bottom-left-radius: 14px;
 }
 
 .bottom
@@ -81,7 +82,7 @@ body
     top: 20px;
     width: 200px;
     height: 40px;
-    background: #f30000;
+    background: #696969;
 }
 
 .signal
