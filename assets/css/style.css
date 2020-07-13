@@ -124,17 +124,12 @@ h2
     max-width: 20%;
 }
 
-@media screen and (max-width: 600px){
-    #meta-link {
-        left: 20px;
-        visibility: hidden;    
-    }
+#meta-link {
+    left: 20px;
 }
 
-@media screen and (max-width: 600px){
-    #social-link {
-        right: 20px;
-    }
+#social-link {
+    right: 20px;
 }
 
 .extra-link a#en-link {
@@ -159,4 +154,9 @@ a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
     text-decoration: underline;
+}
+
+@media (max-width: 720px)
+{
+    .extra-link{display:none}
 }
