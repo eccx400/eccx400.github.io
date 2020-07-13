@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:10');
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: url(../../images/fulls/09.jpg);
+    background-size: cover;
+}
+
+.mobile
+{
+    position: relative;
+    width: 350px;
+    height: 700px;
+    background: #020c17;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.top
+{
+    position: absolute;
+    top: 8px;
+    height: 15%;
+    left: 5px;
+    right: 5px;
+    background: #696969;  
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    box-shadow: 10px grey;
+}
+
+.notch
+{
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    height: 30px;
+    background: #020c17;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px; 
+}
+
+.notch:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 75%;
+    height: 100%;
+    background: rgba(255, 255, 255, .1);
+    z-index: 1;
+    transform: skewX(-5deg);   
+    border-bottom-left-radius: 14px;
+}
+
+.bottom
+{
+    position: absolute;
+    top: 100px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    background: #efefef; 
+    background-image: linear-gradient( rgba(128,128,128,1) 0%, rgba(239,239,239,1) 0.3%, rgba(250,250,250,1) 100%);
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;    
+}
+
+.mobile-title
+{
+    position: relative;
+    left: 15px;
+    top: 20px;
+    width: 200px;
+    height: 40px;
+    background: #696969;
+}
+
+.signal
+{
+
+}
+
+.battery
+{
+
+}
+
+h2
+{
+    color: #fff;
+    font-weight: 400;
+    z-index: 1;
+}
+
+.extra-link {
+    position: absolute;
+    bottom: 20px;
+    max-width: 20%;
+}
+
+#meta-link {
+    left: 20px;
+}
+
+#social-link {
+    right: 20px;
+}
+
+.extra-link a#en-link {
+    font-size: 17px;
+}
+
+.extra-link a.letters {
+    position: relative;
+    top: -4px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.extra-link a {
+    display: inline-block;
+    margin: 0 6px;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
