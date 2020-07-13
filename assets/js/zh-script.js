@@ -1,4 +1,4 @@
-var botui = new BotUI('help-bot');
+var botui = new BotUI("zh-bot");
 
 botui.message.add({
   delay: 800,
@@ -130,7 +130,7 @@ var sure = function () {
               content: "那麽，仔細看看我的博客吧？ ^_^"
           })  
           setTimeout(function(){
-          window.location.replace("https://eccx400.github.io/");
+          window.location.replace("https://eccx400.github.io/landing.html");
           }, 4000)
       })
   } 

@@ -28,13 +28,14 @@ body
 {
     position: absolute;
     top: 8px;
-    height: 15%;
+    height: 13.1%;
     left: 5px;
     right: 5px;
     background: #2f2e33;  
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     box-shadow: 10px grey;
+    z-index: 1;
 }
 
 .notch
@@ -46,6 +47,7 @@ body
     background: #020c17;
     border-bottom-left-radius: 14px;
     border-bottom-right-radius: 14px; 
+    z-index: 2;
 }
 
 .notch:before
@@ -57,9 +59,9 @@ body
     width: 75%;
     height: 100%;
     background: rgba(255, 255, 255, .1);
-    z-index: 1;
+    z-index: 2;
     transform: skewX(-5deg);   
-    border-bottom-left-radius: 14px;
+    border-bottom-left-radius: 15px;
 }
 
 .bottom
@@ -83,6 +85,7 @@ body
     width: 200px;
     height: 40px;
     background: #2f2e33;
+    z-index: 2;
 }
 
 .signal

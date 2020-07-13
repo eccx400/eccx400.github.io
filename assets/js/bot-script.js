@@ -2,23 +2,23 @@ var botui = new BotUI("hello-bot");
 
 botui.message.add({
   delay: 800,
-  content: "Hi, there111👋"
+  content: "Hello there!!! 👋"
 }).then(function () {
   botui.message.add({
       delay: 1100,
-      content: "這里是傳軒"
+      content: "My name is Eric Cheng"
   }).then(function () {
       botui.message.add({
           delay: 1100,
-          content: "一個充滿好奇心的藍孩子~"
+          content: "Welcome to my website!"
       }).then(function () {
           botui.action.button({
               delay: 1600,
               action: [{
-                  text: "然後呢？ 😃",
+                  text: "Nice to meet you! 😃",
                   value: "sure"
               }, {
-                  text: "少廢話！ 🙄",
+                  text: "Just skip to the end lol 🙄",
                   value: "skip"
               }]
           }).then(function (a) {
@@ -45,32 +45,32 @@ var sure = function () {
   secondpart = function () {
       botui.message.add({
           delay: 1500,
-          content: "目前就讀於美國加州聖塔克拉拉大學"
+          content: "I recently graduated from Santa Clara with a Computer Science Degree"
       }).then(function () {
           botui.message.add({
               delay: 1500,
-              content: "原本大學想申請 Biology..."
+              content: "When I first applied for college I was actually thinking of choosing a biology major"
           }).then(function () {
               botui.message.add({
                   delay: 1200,
-                  content: "但是後來還是決定走 Coding 的道路"
+                  content: "then I thought Computer Science suited me better lmao"
               }).then(function () {
                   botui.message.add({
                       delay: 1500,
-                      content: "主攻 C/C++, Java, Python, SQL 等語言，略懂 Scala，偶爾也折騰 HTML/CSS/JavaScript"
+                      content: "I generally use C/C++, Java, and Python as my preferred languages, but also work with HTML/CSS/JS in front end design"
                   }).then(function () {
                       botui.message.add({
                           delay: 1500,
-                          content: "研究的方向，是成爲一名後端開發工程師 (Back-End Developer) 以及機器學習 (Machine Learning)"
+                          content: "I aim to become a software engineer with a focus in big data developement and analysis"
                       }).then(function () {
                           botui.message.add({
                               delay: 1800,
-                              content: "我對前端開發 (Front-End Development)也感興趣. 以後也想往這個方向發展~"
+                              content: "I also enjoy Front-End work, and might also pursue web and UI design as a hobby~"
                           }).then(function () {
                               botui.action.button({
                                   delay: 1100,
                                   action: [{
-                                      text: "你有什麽愛好嗎？ 🤔",
+                                      text: "What do you do outside of coding？ 🤔",
                                       value: "why-mashiro"
                                   }]
                               }).then(function (a) {
@@ -86,12 +86,12 @@ var sure = function () {
   thirdpart = function () {
       botui.message.add({
           delay: 1E3,
-          content: "我喜歡跟朋友玩游戲，大部分時間都花在任天堂的大亂閙 (Super Smash Bros.)，塞爾達傳説系列 (The Legend of Zelda)，以及英雄聯盟 (LOL)"
+          content: "I enjoy playing games such as the Super Smash Bros series，the Legend of Zelda, and League of Legends"
       }).then(function () {
           botui.action.button({
               delay: 1500,
               action: [{
-                  text: "除此之外呢？ 🤔",
+                  text: "What else？ 🤔",
                   value: "why-cat"
               }]
           }).then(function (a) {
@@ -102,16 +102,16 @@ var sure = function () {
   fourthpart = function () {
       botui.message.add({
           delay: 1E3,
-          content: "我也非常喜歡出去旅游！有時間的話就喜歡往外跑~~"
+          content: "I also really like to travel!"
       }).then(function () {
           botui.message.add({
               delay: 1100,
-              content: "從小的時候就去過很多國家，現在上大學的時候也找空開車出去玩"
+              content: "Ever since I was a small boy, I yearned to go on adventures abroad and envelop myself in different cultures"
           }).then(function () {
               botui.action.button({
                   delay: 1500,
                   action: [{
-                      text: "你覺得哪裏比較好玩？(ง •_•)ง",
+                      text: "What places do you recommend？(ง •_•)ง",
                       value: "why-domain"
                   }]
               }).then(function (a) {
@@ -123,11 +123,11 @@ var sure = function () {
   fifthpart = function () {
       botui.message.add({
           delay: 1E3,
-          content: "emmmm，我覺得去過的地方都很有特色，各有各的好玩之處 =.= 我會把我的旅游經歷與感受記錄下來的喲！"
+          content: "emmmm，I feel like each place has its own unique points，so I can't really explain them well =.= You can check out the photo portfolio on my website!"
       }).then(function () {
           botui.message.add({
               delay: 1600,
-              content: "那麽，仔細看看我的博客吧？ ^_^"
+              content: "I hope you like it! Enjoy ^_^"
           })  
           setTimeout(function(){
           window.location.replace("https://eccx400.github.io/landing.html");
