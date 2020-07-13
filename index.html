@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./node_modules/botui/build/botui-theme-default.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 	<script src="https://cdn.botframework.com/botframework-webchat/latest/botchat.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+	<script src="./node_modules/botui/build/botui.js"></script>
+	<script src="./assets/js/bot-script.js"></script>
     <script src="https://kit.fontawesome.com/yourcode.js"></script>
     <style>
       .botui-container {
@@ -34,11 +37,6 @@
                 <div class="botui-app-container" id="help-bot">
                     <bot-ui></bot-ui>
                 </div>
-                <!-- use Vue version 2.0.5 for HTML embeds | https://github.com/botui/botui/issues/103-->
-                <!-- remove .min from the file name to use in development mode -->
-                <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
-                <script src="./node_modules/botui/build/botui.js"></script>
-                <script src="./assets/js/bot-script.js"></script>
             </div>
       </div>
         <div class="extra-link" id="meta-link">
