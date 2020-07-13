@@ -112,6 +112,10 @@ h2
     left: 20px;
 }
 
+#social-link {
+    right: 20px;
+}
+
 .extra-link a#en-link {
     font-size: 17px;
 }
@@ -119,7 +123,7 @@ h2
 .extra-link a.letters {
     position: relative;
     top: -4px;
-    font-size: 16px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
 }
