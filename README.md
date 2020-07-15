@@ -2,4 +2,4 @@
 
 Visit the Website at https://ericcheng.me
 
-![](.images/index.jpg)
+![](./images/index.jpg)
