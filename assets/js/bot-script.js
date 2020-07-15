@@ -37,8 +37,12 @@ var sure = function () {
       })
   },
   end = function () {
+    botui.message.add({
+        delay: 800,
+        content: "aww ok then 😢"
+    })
       botui.message.add({
-          delay: 600,
+          delay: 1600,
           content: "![...](https://media.makeameme.org/created/not-talking-to-a2wmvw.jpg)"
       })
   },
@@ -56,7 +60,7 @@ var sure = function () {
                   content: "then I thought Computer Science suited me better lmao"
               }).then(function () {
                   botui.message.add({
-                      delay: 1500,
+                      delay: 1900,
                       content: "I generally use C/C++, Java, and Python as my preferred languages, but also work with HTML/CSS/JS in front end design"
                   }).then(function () {
                       botui.message.add({
@@ -64,13 +68,13 @@ var sure = function () {
                           content: "I aim to become a software engineer with a focus in big data development and analysis"
                       }).then(function () {
                           botui.message.add({
-                              delay: 1800,
-                              content: "I also enjoy Front-End work, and might also pursue web and UI design as a hobby~"
+                              delay: 1500,
+                              content: "I also enjoy Front-End work, and might also pursue web and UI design as side projects~"
                           }).then(function () {
                               botui.action.button({
                                   delay: 1100,
                                   action: [{
-                                      text: "What do you do outside of coding？ 🤔",
+                                      text: "What are your hobbies? 🤔",
                                       value: "why-mashiro"
                                   }]
                               }).then(function (a) {
@@ -91,7 +95,7 @@ var sure = function () {
           botui.action.button({
               delay: 1500,
               action: [{
-                  text: "What else？ 🤔",
+                  text: "What else? 🤔",
                   value: "why-cat"
               }]
           }).then(function (a) {
@@ -111,7 +115,7 @@ var sure = function () {
               botui.action.button({
                   delay: 1500,
                   action: [{
-                      text: "What places do you recommend？(ง •_•)ง",
+                      text: "What travel destinations do you recommend? (ง •_•)ง",
                       value: "why-domain"
                   }]
               }).then(function (a) {
@@ -122,7 +126,7 @@ var sure = function () {
   },
   fifthpart = function () {
       botui.message.add({
-          delay: 1E3,
+          delay: 2300,
           content: "emmmm，I feel like each place has its own unique points，so I can't really explain them well =.= You can check out the photo portfolio on my website!"
       }).then(function () {
           botui.message.add({
