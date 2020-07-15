@@ -18,7 +18,7 @@ botui.message.add({
                   text: "Nice to meet you! 😃",
                   value: "sure"
               }, {
-                  text: "Just skip to the end lol 🙄",
+                  text: "Spare me the talk 🙄",
                   value: "skip"
               }]
           }).then(function (a) {
@@ -39,7 +39,7 @@ var sure = function () {
   end = function () {
       botui.message.add({
           delay: 600,
-          content: "![...](https://view.moezx.cc/images/2018/05/06/a1c4cd0452528b572af37952489372b6.md.jpg)"
+          content: "![...](https://media.makeameme.org/created/not-talking-to-a2wmvw.jpg)"
       })
   },
   secondpart = function () {
