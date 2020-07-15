@@ -1,2 +1,5 @@
 # Eric Cheng Personal Website
-Content to be decided later
+
+Visit the Website at https://ericcheng.me
+
+![](.images/index.jpg)
