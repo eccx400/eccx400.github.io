@@ -74,7 +74,7 @@ var sure = function () {
                               botui.action.button({
                                   delay: 1100,
                                   action: [{
-                                      text: "What are your hobbies? 🤔",
+                                      text: "What projects have you done 🤔",
                                       value: "why-mashiro"
                                   }]
                               }).then(function (a) {
@@ -89,33 +89,38 @@ var sure = function () {
   },
   thirdpart = function () {
       botui.message.add({
-          delay: 1E3,
-          content: "I enjoy playing games such as the Super Smash Bros series，the Legend of Zelda, and League of Legends"
+          delay: 1900,
+          content: "I created a program to collect patient vital signs and analyze them to highlight any trends or information that might be useful for medical professionals"
       }).then(function () {
-          botui.action.button({
-              delay: 1500,
-              action: [{
-                  text: "What else? 🤔",
-                  value: "why-cat"
-              }]
-          }).then(function (a) {
-              fourthpart()
-          })
+            botui.message.add({
+                delay: 1100,
+                content: "I am also thinking of implementing a Machine Learning algorithm to further analyze the data"
+            }).then(function () {
+                botui.action.button({
+                    delay: 1500,
+                    action: [{
+                        text: "What else? 🤔",
+                        value: "why-cat"
+                    }]
+                }).then(function (a) {
+                    fourthpart()
+                })
+            })
       })
   },
   fourthpart = function () {
       botui.message.add({
           delay: 1E3,
-          content: "I also really like to travel!"
+          content: "I used Qt Quick to create a functional app interface with sliders and touchscreen applications"
       }).then(function () {
           botui.message.add({
               delay: 1100,
-              content: "Ever since I was a small boy, I yearned to go on adventures abroad and envelop myself in different cultures"
+              content: "I also created a remote logging system using rsyslog that would wirelessly transfer files"
           }).then(function () {
               botui.action.button({
                   delay: 1500,
                   action: [{
-                      text: "What travel destinations do you recommend? (ง •_•)ง",
+                      text: "What else can I learn about you? (ง •_•)ง",
                       value: "why-domain"
                   }]
               }).then(function (a) {
@@ -127,7 +132,7 @@ var sure = function () {
   fifthpart = function () {
       botui.message.add({
           delay: 2300,
-          content: "emmmm，I feel like each place has its own unique points，so I can't really explain them well =.= You can check out the photo portfolio on my website!"
+          content: "Here's a website I made to better showcase my life. Have a look!"
       }).then(function () {
           botui.message.add({
               delay: 1600,
