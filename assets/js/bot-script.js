@@ -93,7 +93,7 @@ var sure = function () {
           content: "I created a program to collect patient vital signs and analyze them to highlight any trends or information that might be useful for medical professionals"
       }).then(function () {
             botui.message.add({
-                delay: 1100,
+                delay: 1600,
                 content: "I am also thinking of implementing a Machine Learning algorithm to further analyze the data"
             }).then(function () {
                 botui.action.button({
@@ -114,13 +114,13 @@ var sure = function () {
           content: "I used Qt Quick to create a functional app interface with sliders and touchscreen applications"
       }).then(function () {
           botui.message.add({
-              delay: 1100,
+              delay: 1500,
               content: "I also created a remote logging system using rsyslog that would wirelessly transfer files"
           }).then(function () {
               botui.action.button({
                   delay: 1500,
                   action: [{
-                      text: "What else can I learn about you? (ง •_•)ง",
+                      text: "Tell me more! (ง •_•)ง",
                       value: "why-domain"
                   }]
               }).then(function (a) {
@@ -132,7 +132,7 @@ var sure = function () {
   fifthpart = function () {
       botui.message.add({
           delay: 2300,
-          content: "Here's a website I made to better showcase my life. Have a look!"
+          content: "Sure! Here's a website I made to better showcase myself. Have a look!"
       }).then(function () {
           botui.message.add({
               delay: 1600,
